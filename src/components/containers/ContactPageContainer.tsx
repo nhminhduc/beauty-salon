@@ -19,7 +19,7 @@ const ContactPageContainer = () => {
       className="flex items-center overflow-x-hidden"
     >
       <div className="container mx-auto pt-48 pb-12 xl:pt-32 xl:pb-0">
-        <div className="flex flex-col gap-12 xl:flex-row h-full bg-white pt-4 rounded">
+        <div className="flex flex-col gap-12 xl:flex-row h-full bg-white xl:bg-transparent pt-4 rounded">
           <motion.div
             initial={{ opacity: 0, x: -60 }}
             animate={{
