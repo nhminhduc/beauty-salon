@@ -27,10 +27,7 @@ const GiftcardPageContainer = () => {
           >
             <img
               src={"/assets/about/img.jpg"}
-              fill
               alt=""
-              quality={100}
-              priority
               className="object-contain"
             />
           </motion.div>

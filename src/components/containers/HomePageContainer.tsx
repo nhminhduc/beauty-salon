@@ -58,7 +58,6 @@ const HomePageContainer = () => {
                 src={"/assets/home/img.png"}
                 width={864}
                 height={650}
-                quality={100}
                 alt="Home Image"
               />
             </motion.div>

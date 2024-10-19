@@ -33,7 +33,7 @@ const ContactPageContainer = () => {
             <div className="flex flex-col items-center xl:items-start gap-12">
               <div className="flex items-start gap-4">
                 <div className="relative w-9 h-9">
-                  <img src={"/assets/contact/pin.svg"} fill alt="" />
+                  <img src={"/assets/contact/pin.svg"} alt="" />
                 </div>
                 <div className="pt-1 flex-1">
                   <h4 className="h4 mb-2">Address</h4>
@@ -44,7 +44,7 @@ const ContactPageContainer = () => {
               </div>
               <div className="flex items-start gap-4">
                 <div className="relative w-9 h-9">
-                  <img src={"/assets/contact/phone.svg"} fill alt="" />
+                  <img src={"/assets/contact/phone.svg"} alt="" />
                 </div>
                 <div className="pt-1 flex-1">
                   <h4 className="h4 mb-2">Phone Number</h4>
@@ -53,7 +53,7 @@ const ContactPageContainer = () => {
               </div>
               <div className="flex items-start gap-4">
                 <div className="relative w-9 h-9">
-                  <img src={"/assets/contact/email.svg"} fill alt="" />
+                  <img src={"/assets/contact/email.svg"} alt="" />
                 </div>
                 <div className="pt-1 flex-1">
                   <h4 className="h4 mb-2">Email Address</h4>

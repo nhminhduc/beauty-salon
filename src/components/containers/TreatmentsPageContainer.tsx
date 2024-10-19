@@ -62,8 +62,6 @@ const TreatmentsPageContainer = () => {
         >
           <img
             src={"/assets/treatments/img.jpg"}
-            fill
-            quality={100}
             alt=""
             className="object-contain"
           />
