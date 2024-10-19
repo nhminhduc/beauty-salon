@@ -9,4 +9,4 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-export default withNextIntl(nextConfig);
+module.exports = withNextIntl(nextConfig);
