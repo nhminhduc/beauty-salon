@@ -1,8 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
-import StatsItem from "../StatsItem";
 import { useTranslations } from "next-intl";
 
 const GiftcardPageContainer = () => {
@@ -27,7 +25,7 @@ const GiftcardPageContainer = () => {
             transition={{ delay: 2, duration: 0.8, ease: "easeInOut" }}
             className="relative w-[304px] h-[423px] xl:w-[384px] xl:h-[534px] mb-8 xl:mb-0"
           >
-            <Image
+            <img
               src={"/assets/about/img.jpg"}
               fill
               alt=""

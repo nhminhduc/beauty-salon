@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 import Link from "next/link";
-import Image from "next/image";
 
 import { AiOutlineMenu } from "react-icons/ai";
 

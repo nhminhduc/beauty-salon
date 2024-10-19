@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import TreatmentDetail from "../TreatmentDetail";
 
 const TreatmentsPageContainer = () => {
@@ -61,7 +60,7 @@ const TreatmentsPageContainer = () => {
           }}
           className="hidden xl:flex w-[384px] h-[534px] relative mt-10"
         >
-          <Image
+          <img
             src={"/assets/treatments/img.jpg"}
             fill
             quality={100}

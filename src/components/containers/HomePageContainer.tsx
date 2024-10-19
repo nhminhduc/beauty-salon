@@ -1,8 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
-import ModalVideo from "../ModalVideo";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
@@ -56,7 +54,7 @@ const HomePageContainer = () => {
               }}
               className="hidden xl:flex"
             >
-              <Image
+              <img
                 src={"/assets/home/img.png"}
                 width={864}
                 height={650}
