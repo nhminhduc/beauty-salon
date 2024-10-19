@@ -17,7 +17,7 @@ const HomePageContainer = () => {
           delay: 2,
         },
       }}
-      className="flex overflow-x-hidden"
+      className="flex overflow-x-hidden pt-32 xl:pt-64"
     >
       <div className="container mx-auto flex flex-col">
         <h1 className="h1 mb-6 self-center">

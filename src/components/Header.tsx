@@ -19,8 +19,8 @@ const Header = () => {
   const t = useTranslations("header");
 
   return (
-    <header className="pb-6 xl:pb-[50px] sticky z-40 w-full bg-accent-100 xl:bg-transparent">
-      <div className="bg-secondary-100 mb-6 xl:mb-[50px] xl:h-[50px] py-4 xl:py-0">
+    <header className="pb-6 xl:pb-[24px] fixed z-40 w-full bg-white">
+      <div className="bg-secondary-100 mb-6 xl:mb-[24px] xl:h-[50px] py-4 xl:py-0">
         <div className="container mx-auto h-full">
           <div className="flex items-center justify-between h-full">
             <div className="flex flex-col lg:flex-row items-center h-full gap-2 xl:gap-6 w-full justify-between xl:w-auto xl:justify-normal">
