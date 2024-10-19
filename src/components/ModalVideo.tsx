@@ -8,7 +8,7 @@ const ModalVideo = () => {
         <div className="flex items-center gap-4 cursor-pointer">
           <button className="relative w-[58px] h-[58px] bg-white rounded-full flex items-center justify-center shadow-2xl shadow-accent">
             <img
-              src={"/assets/home/play.svg"}
+              src={"./assets/home/play.svg"}
               width={36}
               height={36}
               alt="Play Video"

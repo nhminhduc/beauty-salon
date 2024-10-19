@@ -55,7 +55,7 @@ const HomePageContainer = () => {
               className="hidden xl:flex"
             >
               <img
-                src={"/assets/home/img.png"}
+                src={"./assets/home/img.png"}
                 width={864}
                 height={650}
                 alt="Home Image"

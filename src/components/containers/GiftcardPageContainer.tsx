@@ -26,7 +26,7 @@ const GiftcardPageContainer = () => {
             className="relative w-[304px] h-[423px] xl:w-[384px] xl:h-[534px] mb-8 xl:mb-0"
           >
             <img
-              src={"/assets/about/img.jpg"}
+              src={"./assets/about/img.jpg"}
               alt=""
               className="object-contain"
             />

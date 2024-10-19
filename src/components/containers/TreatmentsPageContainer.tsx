@@ -61,7 +61,7 @@ const TreatmentsPageContainer = () => {
           className="hidden xl:flex w-[384px] h-[534px] relative mt-10"
         >
           <img
-            src={"/assets/treatments/img.jpg"}
+            src={"./assets/treatments/img.jpg"}
             alt=""
             className="object-contain"
           />
