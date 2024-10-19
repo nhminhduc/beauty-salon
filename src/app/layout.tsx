@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { Marcellus, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
-import CursorProvider from "@/components/CursorContext";
 import Transition from "@/components/Transition";
 import PageTransition from "@/components/PageTransition";
 import Footer from "@/components/Footer";
 import { NextIntlClientProvider } from "next-intl";
-import { getLocale, getMessages } from "next-intl/server";
+import { getMessages } from "next-intl/server";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const marcellus = Marcellus({
   subsets: ["latin"],
@@ -31,11 +31,10 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const locale = await getLocale();
   const messages = await getMessages();
 
   return (
-    <html lang="en">
+    <html lang="en" className={`scroll-smooth`}>
       <body
         className={`${marcellus.variable} ${montserrat.variable} overflow-x-hidden`}
       >
@@ -44,6 +43,7 @@ export default async function RootLayout({
           <Header />
           <PageTransition>{children}</PageTransition>
           <Footer />
+          <ScrollToTopButton />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -6,7 +6,7 @@
   },
   "contact": {
     "address": "Helsinki <br></br> Uusimaa <br></br> Finland",
-    "tel": "+90 (987) 654 32 10",
+    "tel": "+358 4545 15154451",
     "email": "email@email.com"
   },
   "treatments": {
@@ -26,8 +26,63 @@
     },
     "button": "Discover More"
   },
+  "giftcard": {
+    "title": "A gift card to a beauty salon",
+    "description": "The most pampering gift idea for the holidays is a gift card to Blue Lagoon Beauty. Intangible treatment gift cards to the beauty salon serve as a wonderful reminder for various life situations, such as anniversaries, in honor of graduations, Christmas or Mother's Day gifts or, for example, as a gift for a new mother! A gift card to a beauty salon is a classic gift that brings a good mood and feeling, this gift will not disappoint! You can buy a gift card for yourself or order it directly for the recipient.",
+    "button": "Create a gift card"
+  },
   "header": {
     "tel": "+90 (987) 654 32 10",
     "email": "email@email.com"
+  },
+  "price": {
+    "title": "Our Price List",
+    "services": [
+      {
+        "category": "Nails",
+        "items": [
+          { "name": "Gel Nails", "price": "65€" },
+          { "name": "Acrylic Nails", "price": "70€" },
+          { "name": "Nail Art", "price": "10€-30€" },
+          { "name": "Manicure", "price": "40€" }
+        ]
+      },
+      {
+        "category": "Lashes",
+        "items": [
+          { "name": "Classic Lashes", "price": "80€" },
+          { "name": "Volume Lashes", "price": "100€" },
+          { "name": "Lash Lift", "price": "60€" }
+        ]
+      },
+      {
+        "category": "Pedicure",
+        "items": [
+          { "name": "Basic Pedicure", "price": "50€" },
+          { "name": "Spa Pedicure", "price": "70€" },
+          { "name": "Gel Polish for Toes", "price": "40€" }
+        ]
+      }
+    ]
+  },
+  "navigation": {
+    "links": [
+      {
+        "name": "Home",
+        "href": "/"
+      },
+      {
+        "name": "Treatments",
+        "href": "/#treatments"
+      },
+      {
+        "name": "Contact",
+        "href": "/#contact"
+      },
+      {
+        "name": "Giftcard",
+        "href": "/#giftcard"
+      }
+    ]
   }
 }

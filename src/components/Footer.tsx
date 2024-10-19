@@ -1,13 +1,10 @@
 import Link from "next/link";
 import Socials from "./Socials";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
-  const links = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/#about" },
-    { name: "Treatments", href: "/#treatments" },
-    { name: "Contact", href: "/#contact" },
-  ];
+  const t = useTranslations("navigation");
+  const links = t.raw("links");
 
   return (
     <footer className="bg-secondary-100 py-12 mt-12">
@@ -24,7 +21,7 @@ const Footer = () => {
           <div className="mb-6 xl:mb-0">
             <nav>
               <ul className="flex gap-8">
-                {links.map((link) => (
+                {links.map((link: { name: string; href: string }) => (
                   <li key={link.name}>
                     <Link
                       href={link.href}

@@ -1,4 +1,4 @@
-import AboutPageContainer from "@/components/containers/AboutPageContainer";
+import AboutPageContainer from "@/components/containers/GiftcardPageContainer";
 import ContactPageContainer from "@/components/containers/ContactPageContainer";
 import HomePageContainer from "@/components/containers/HomePageContainer";
 import TreatmentsPageContainer from "@/components/containers/TreatmentsPageContainer";

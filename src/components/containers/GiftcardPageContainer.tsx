@@ -3,11 +3,13 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import StatsItem from "../StatsItem";
+import { useTranslations } from "next-intl";
 
-const AboutPageContainer = () => {
+const GiftcardPageContainer = () => {
+  const t = useTranslations("giftcard");
   return (
     <motion.section
-      id="about"
+      id="giftcard"
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
@@ -41,13 +43,12 @@ const AboutPageContainer = () => {
             className="flex flex-col items-start xl:max-w-[650px] text-center xl:text-left mx-auto xl:mx-0"
           >
             <h2 className="h2 mb-6 mx-auto max-w-[540px] xl:max-w-none">
-              Committed to Your Skin&apos;s Health and Beauty
+              {t("title")}
             </h2>
             <p className="lead max-w-[600px] mx-auto xl:mx-0">
-              Tailored skincare solutions for a healthy complexion, offering
-              customized care for radiant skin
+              {t("description")}
             </p>
-            <div className="grid grid-cols-3 gap-[30px] mb-14 mx-auto xl:mx-0">
+            {/* <div className="grid grid-cols-3 gap-[30px] mb-14 mx-auto xl:mx-0">
               <div>
                 <StatsItem countNum={13} text="Years On Market" />
               </div>
@@ -61,8 +62,8 @@ const AboutPageContainer = () => {
                   text="Natural Ingredients"
                 />
               </div>
-            </div>
-            <button className="btn mx-auto xl:mx-0">Contact Us</button>
+            </div> */}
+            <button className="btn mx-auto xl:mx-0">{t("button")}</button>
           </motion.div>
         </div>
       </div>
@@ -70,4 +71,4 @@ const AboutPageContainer = () => {
   );
 };
 
-export default AboutPageContainer;
+export default GiftcardPageContainer;
