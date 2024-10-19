@@ -73,15 +73,15 @@
       },
       {
         "name": "Treatments",
-        "href": "#treatments"
+        "href": "/#treatments"
       },
       {
         "name": "Contact",
-        "href": "#contact"
+        "href": "/#contact"
       },
       {
         "name": "Giftcard",
-        "href": "#giftcard"
+        "href": "/#giftcard"
       }
     ]
   }
