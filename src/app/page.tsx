@@ -1,5 +1,15 @@
+import AboutPageContainer from "@/components/containers/AboutPageContainer";
+import ContactPageContainer from "@/components/containers/ContactPageContainer";
 import HomePageContainer from "@/components/containers/HomePageContainer";
+import TreatmentsPageContainer from "@/components/containers/TreatmentsPageContainer";
 
 export default function Home() {
-  return <HomePageContainer />;
+  return (
+    <>
+      <HomePageContainer />
+      <TreatmentsPageContainer />
+      <ContactPageContainer />
+      <AboutPageContainer />
+    </>
+  );
 }

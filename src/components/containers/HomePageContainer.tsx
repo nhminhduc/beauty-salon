@@ -3,10 +3,15 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import ModalVideo from "../ModalVideo";
+import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const HomePageContainer = () => {
+  const t = useTranslations("homepage");
+
   return (
     <motion.section
+      id="homepage"
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
@@ -14,10 +19,13 @@ const HomePageContainer = () => {
           delay: 2,
         },
       }}
-      className='min-h-screen flex items-center overflow-x-hidden'
+      className="flex overflow-x-hidden"
     >
-      <div className='container mx-auto'>
-        <div className='flex flex-col xl:flex-row items-center h-full'>
+      <div className="container mx-auto flex flex-col">
+        <h1 className="h1 mb-6 self-center">
+          {t.rich("title", { br: () => <br /> })}
+        </h1>
+        <div className="flex flex-col xl:flex-row h-full">
           <motion.div
             initial={{ opacity: 0, y: -100 }}
             animate={{
@@ -25,23 +33,20 @@ const HomePageContainer = () => {
               y: 0,
               transition: { delay: 2, duration: 1, ease: "easeInOut" },
             }}
-            className='w-full text-center xl:text-left xl:w-[500px] pt-[120px]'
+            className="w-full text-center xl:text-left xl:w-[500px] pt-[120px]"
           >
-            <h1 className='h1 mb-6'>
-              Natural Beauty <br /> Starts Here
-            </h1>
-            <p className='lead max-w-xl mx-auto'>
-              Tailored skincare solutions for a healthy complexion, offering
-              customized care for radiant skin
-            </p>
-            <div className='flex flex-col xl:flex-row items-center gap-6 max-w-max mx-auto xl:mx-0'>
-              <button className='btn btn-lg'>Book an Appointment</button>
-              <div>
+            <p className="lead max-w-xl mx-auto">{t("description")}</p>
+            <div className="flex flex-col xl:flex-row items-center gap-6 max-w-max mx-auto xl:mx-0">
+              <button className="btn btn-lg">{t("button")}</button>
+              <Link className="btn btn-lg" href="/price">
+                Price list
+              </Link>
+              {/* <div>
                 <ModalVideo />
-              </div>
+              </div> */}
             </div>
           </motion.div>
-          <div className='flex-1'>
+          <div className="flex-1">
             <motion.div
               initial={{ opacity: 0, bottom: "-100%" }}
               animate={{
@@ -49,14 +54,14 @@ const HomePageContainer = () => {
                 bottom: 0,
                 transition: { delay: 2.4, duration: 1.2, ease: "easeInOut" },
               }}
-              className='hidden xl:flex fixed bottom-0'
+              className="hidden xl:flex"
             >
               <Image
                 src={"/assets/home/img.png"}
                 width={864}
                 height={650}
                 quality={100}
-                alt='Home Image'
+                alt="Home Image"
               />
             </motion.div>
           </div>

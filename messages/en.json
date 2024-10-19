@@ -1,0 +1,33 @@
+{
+  "homepage": {
+    "title": "Nails & Lashes",
+    "description": "Tailored skincare solutions for a healthy complexion, offering customized care for radiant skin",
+    "button": "Book an Appointment"
+  },
+  "contact": {
+    "address": "Helsinki <br></br> Uusimaa <br></br> Finland",
+    "tel": "+90 (987) 654 32 10",
+    "email": "email@email.com"
+  },
+  "treatments": {
+    "title": "Indulge in our Luxurious Treatments",
+    "description": "We implement beauty treatments according to your wishes. Our professional works with a creative and subtle approach.",
+    "point1": {
+      "title": "Nails",
+      "description": "We make durable and individual structure nails with acrylic, powder gel or UV gel. You can create your individual style with different varnishes, such as gel varnish, Chrome and ombré, or by adding stone or pattern decorations to your nails. We give our structural nails a 5-day guarantee."
+    },
+    "point2": {
+      "title": "Lashes",
+      "description": "Point 2 description"
+    },
+    "point3": {
+      "title": "Pedicure",
+      "description": "Pamper yourself with a relaxing and caring spa pedicure. Our luxurious spa pedicure includes exfoliation, nail care and polish. Varnishing can also be done with gel according to wishes. Our foot care is done in massaging spa chairs, which guarantees a relaxing experience."
+    },
+    "button": "Discover More"
+  },
+  "header": {
+    "tel": "+90 (987) 654 32 10",
+    "email": "email@email.com"
+  }
+}

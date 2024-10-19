@@ -5,6 +5,9 @@ import Header from "@/components/Header";
 import CursorProvider from "@/components/CursorContext";
 import Transition from "@/components/Transition";
 import PageTransition from "@/components/PageTransition";
+import Footer from "@/components/Footer";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale, getMessages } from "next-intl/server";
 
 const marcellus = Marcellus({
   subsets: ["latin"],
@@ -23,21 +26,25 @@ export const metadata: Metadata = {
   description: "SkinCare Beauty - Beauty and Skincare Products",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+  const messages = await getMessages();
+
   return (
-    <html lang='en'>
+    <html lang="en">
       <body
         className={`${marcellus.variable} ${montserrat.variable} overflow-x-hidden`}
       >
-        {/* <CursorProvider> */}
-        <Transition />
-        <Header />
-        <PageTransition>{children}</PageTransition>
-        {/* </CursorProvider> */}
+        <NextIntlClientProvider messages={messages}>
+          <Transition />
+          <Header />
+          <PageTransition>{children}</PageTransition>
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

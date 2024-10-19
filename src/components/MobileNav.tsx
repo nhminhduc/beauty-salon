@@ -18,15 +18,15 @@ const links = [
   },
   {
     name: "About",
-    href: "/about",
+    href: "/#about",
   },
   {
     name: "Treatments",
-    href: "/treatments",
+    href: "/#treatments",
   },
   {
     name: "Contact",
-    href: "/contact",
+    href: "/#contact",
   },
 ];
 
@@ -34,12 +34,12 @@ const MobileNav = ({ setMobileNav }: MobileNavProps) => {
   const pathName = usePathname();
 
   return (
-    <nav className='relative flex flex-col justify-between h-full p-8'>
+    <nav className="relative flex flex-col justify-between h-full p-8">
       <IoCloseOutline
         onClick={() => setMobileNav(false)}
-        className='text-4xl cursor-pointer text-accent'
+        className="text-4xl cursor-pointer text-accent"
       />
-      <ul className='flex flex-col gap-10 text-white text-xl'>
+      <ul className="flex flex-col gap-10 text-white text-xl">
         {links.map((link, idx) => (
           <Link
             key={idx}
@@ -52,7 +52,7 @@ const MobileNav = ({ setMobileNav }: MobileNavProps) => {
           </Link>
         ))}
       </ul>
-      <Socials containerStyles='text-white text-lg flex gap-6 justify-center' />
+      <Socials containerStyles="text-white text-lg flex gap-6 justify-center" />
     </nav>
   );
 };

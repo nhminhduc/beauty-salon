@@ -9,15 +9,15 @@ const links = [
   },
   {
     name: "About",
-    href: "/about",
+    href: "/#about",
   },
   {
     name: "Treatments",
-    href: "/treatments",
+    href: "/#treatments",
   },
   {
     name: "Contact",
-    href: "/contact",
+    href: "/#contact",
   },
 ];
 
@@ -26,7 +26,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <div className='container mx-auto flex gap-8'>
+      <div className="container mx-auto flex gap-8">
         {links.map((link, idx) => (
           <Link
             key={idx}
