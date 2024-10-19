@@ -27,7 +27,7 @@ const MobileNav = ({ setMobileNav }: MobileNavProps) => {
           .map((link: { name: string; href: string }, idx: number) => (
             <Link
               key={idx}
-              href={`${process.env.NEXT_PUBLIC_BASE_URL}/${link.href}`}
+              href={link.href}
               className={`${
                 pathName === link.href && "border-b-2 border-accent"
               } uppercase`}
