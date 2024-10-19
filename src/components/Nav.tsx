@@ -30,12 +30,11 @@ const Nav = () => {
     e: React.MouseEvent<HTMLAnchorElement>,
     href: string
   ) => {
-    if (!href.startsWith("#")) {
+    if (!href.includes("#")) {
       e.preventDefault();
       router.push(href);
     }
   };
-
   return (
     <nav>
       <div className="container mx-auto flex gap-8">
