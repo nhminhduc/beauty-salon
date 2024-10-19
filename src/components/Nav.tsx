@@ -44,7 +44,7 @@ const Nav = () => {
           .map((link: { name: string; href: string }, idx: number) => (
             <Link
               key={idx}
-              href={link.href}
+              href={`${process.env.NEXT_PUBLIC_BASE_URL}${link.href}`}
               onClick={(e) => handleLinkClick(e, link.href)}
               className={`uppercase`}
             >
