@@ -7,7 +7,7 @@ const PricePage = () => {
   const services = t.raw("services");
 
   return (
-    <section className="py-24 bg-secondary">
+    <section className="pt-36 pb-24 bg-secondary">
       <div className="container mt-12 xl:mt-24 mx-auto">
         <h1 className="h1 text-center mb-12">{t("title")}</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
