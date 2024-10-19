@@ -72,7 +72,7 @@ const Header = () => {
         <motion.div
           initial={{ right: "-100%" }}
           animate={{ right: mobileNav ? 0 : "-100%" }}
-          className="sticky bg-primary top-0 bottom-0 right-0 w-[300px] xl:hidden z-50"
+          className="fixed bg-primary top-0 bottom-0 right-0 w-[300px] xl:hidden z-50"
         >
           <MobileNav setMobileNav={setMobileNav} />
         </motion.div>

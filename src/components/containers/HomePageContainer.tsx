@@ -17,9 +17,9 @@ const HomePageContainer = () => {
           delay: 2,
         },
       }}
-      className="flex overflow-x-hidden pt-32 xl:pt-64"
+      className="flex overflow-x-hidden pt-32 xl:pt-64 bg-white pb-4"
     >
-      <div className="container mx-auto flex flex-col">
+      <div className="container mx-auto flex flex-col mt-32 xl:mt-0 ">
         <h1 className="h1 mb-6 self-center">
           {t.rich("title", { br: () => <br /> })}
         </h1>
