@@ -4,7 +4,7 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: process.env.NODE_ENV === "production" ? "/beauty-salon" : "",
+  basePath: process.env.NODE_ENV === "production" ? "/beauty-salon/" : "",
   output: "export",
   reactStrictMode: true,
 };
