@@ -27,14 +27,14 @@ const config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#473936",
+          DEFAULT: "#F1A177",
         },
         secondary: {
-          DEFAULT: "#f2dfce",
-          100: "#cea39c",
+          DEFAULT: "#FADFD1",
+          100: "#F8F3F0",
         },
         accent: {
-          DEFAULT: "#f19687",
+          DEFAULT: "#C189B9",
           100: "#f2d5c5",
         },
       },
