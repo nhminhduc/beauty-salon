@@ -1,10 +1,22 @@
+"use client";
+
 import Link from "next/link";
 import Socials from "./Socials";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { usePathname } from "next/navigation";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Footer = () => {
   const t = useTranslations("navigation");
   const links = t.raw("links");
+  const locale = useLocale();
+  const pathname = usePathname();
+
+  const switchLanguage = () => {
+    const newLocale = locale === "en" ? "fi" : "en";
+    const newPathname = pathname.replace(`/${locale}`, `/${newLocale}`);
+    window.location.href = newPathname;
+  };
 
   return (
     <footer className="bg-secondary-100 py-12 mt-12">
@@ -12,7 +24,7 @@ const Footer = () => {
         <div className="flex flex-col xl:flex-row justify-between items-center">
           <div className="mb-6 xl:mb-0">
             <Link
-              href="/"
+              href={`/${locale}`}
               className="text-primary-DEFAULT font-primary text-2xl xl:text-3xl"
             >
               Nala Beauty
@@ -24,7 +36,7 @@ const Footer = () => {
                 {links.map((link: { name: string; href: string }) => (
                   <li key={link.name}>
                     <Link
-                      href={link.href}
+                      href={`/${locale}${link.href}`}
                       className="text-primary-DEFAULT hover:text-accent"
                     >
                       {link.name}
@@ -34,8 +46,9 @@ const Footer = () => {
               </ul>
             </nav>
           </div>
-          <div>
+          <div className="flex items-center gap-6">
             <Socials containerStyles="flex gap-6 text-primary-DEFAULT" />
+            <LanguageSwitcher switchLanguage={switchLanguage} />
           </div>
         </div>
         <div className="border-t border-primary-DEFAULT/20 mt-8 pt-8 text-center">

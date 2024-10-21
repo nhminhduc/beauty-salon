@@ -43,28 +43,28 @@
     "title": "Hinnasto",
     "services": [
       {
-        "category": "Nails",
+        "category": "Kynnet",
         "items": [
-          { "name": "Gel Nails", "price": "65€" },
-          { "name": "Acrylic Nails", "price": "70€" },
-          { "name": "Nail Art", "price": "10€-30€" },
-          { "name": "Manicure", "price": "40€" }
+          { "name": "Geelikynnet", "price": "65€" },
+          { "name": "Akryylikynnet", "price": "70€" },
+          { "name": "Kynsikoristelu", "price": "10€-30€" },
+          { "name": "Manikyyri", "price": "40€" }
         ]
       },
       {
-        "category": "Lashes",
+        "category": "Ripset",
         "items": [
-          { "name": "Classic Lashes", "price": "80€" },
-          { "name": "Volume Lashes", "price": "100€" },
-          { "name": "Lash Lift", "price": "60€" }
+          { "name": "Klassiset ripset", "price": "80€" },
+          { "name": "Volyymi ripset", "price": "100€" },
+          { "name": "Ripsien kestotaivutus", "price": "60€" }
         ]
       },
       {
-        "category": "Pedicure",
+        "category": "Jalkahoito",
         "items": [
-          { "name": "Basic Pedicure", "price": "50€" },
-          { "name": "Spa Pedicure", "price": "70€" },
-          { "name": "Gel Polish for Toes", "price": "40€" }
+          { "name": "Perusjalkahoito", "price": "50€" },
+          { "name": "Spa-jalkahoito", "price": "70€" },
+          { "name": "Varpaankynsien geelilakkaus", "price": "40€" }
         ]
       }
     ]
@@ -72,11 +72,11 @@
   "navigation": {
     "links": [
       {
-        "name": "Home",
+        "name": "Etusivu",
         "href": "/"
       },
       {
-        "name": "Price",
+        "name": "Hinnasto",
         "href": "/price"
       }
     ]
