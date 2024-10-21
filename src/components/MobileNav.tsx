@@ -1,18 +1,22 @@
-"use client";
-
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
 import { IoCloseOutline } from "react-icons/io5";
 import Socials from "./Socials";
 import { useTranslations } from "next-intl";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 type MobileNavProps = {
   setMobileNav: (value: boolean) => void;
+  switchLanguage: () => void;
+  locale: string;
 };
 
-const MobileNav = ({ setMobileNav }: MobileNavProps) => {
-  const pathName = usePathname();
+const MobileNav = ({
+  setMobileNav,
+  switchLanguage,
+  locale,
+}: MobileNavProps) => {
+  const pathname = usePathname();
   const t = useTranslations("navigation");
 
   return (
@@ -27,14 +31,19 @@ const MobileNav = ({ setMobileNav }: MobileNavProps) => {
           .map((link: { name: string; href: string }, idx: number) => (
             <Link
               key={idx}
-              href={link.href}
+              href={`/${locale}${link.href}`}
               className={`${
-                pathName === link.href && "border-b-2 border-accent"
+                pathname === `/${locale}${link.href}` &&
+                "border-b-2 border-accent"
               } uppercase`}
             >
               {link.name}
             </Link>
           ))}
+        <LanguageSwitcher
+          switchLanguage={switchLanguage}
+          containerStyles="self-start"
+        />
       </ul>
       <Socials containerStyles="text-white text-lg flex gap-6 justify-center" />
     </nav>

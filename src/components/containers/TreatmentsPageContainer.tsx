@@ -19,7 +19,7 @@ const TreatmentsPageContainer = () => {
       }}
       className="flex items-center overflow-x-hidden"
     >
-      <div className="container mx-auto flex flex-col items-center pt-48 pb-12 xl:pt-32 xl:pb-0">
+      <div className="container mx-auto flex flex-col items-center py-12">
         <motion.div
           initial={{ x: -60, opacity: 0 }}
           animate={{
@@ -41,30 +41,39 @@ const TreatmentsPageContainer = () => {
           </p>
 
           {[1, 2, 3].map((pointNumber) => (
-            <TreatmentDetail key={pointNumber} pointNumber={pointNumber} />
+            <motion.div
+              key={pointNumber}
+              initial={{ opacity: 0, y: 50 }}
+              animate={{
+                opacity: 1,
+                y: 0,
+                transition: {
+                  delay: 2 + pointNumber * 0.2,
+                  duration: 0.8,
+                  ease: "easeInOut",
+                },
+              }}
+              className={`flex flex-col ${
+                pointNumber % 2 === 0 ? "xl:flex-row-reverse" : "xl:flex-row"
+              } items-center justify-between w-full mb-16 last:mb-0`}
+            >
+              <div className="w-full xl:w-1/2 mb-8 xl:mb-0">
+                <TreatmentDetail pointNumber={pointNumber} />
+              </div>
+              <div
+                className={`w-full xl:w-1/2 ${
+                  pointNumber % 2 === 0 ? "xl:pr-8" : "xl:pl-8"
+                } flex justify-center xl:justify-start`}
+              >
+                <img
+                  src={`./assets/treatments/img${pointNumber}.jpg`}
+                  alt={`Treatment ${pointNumber}`}
+                  className="w-[400px] h-[300px] rounded-lg object-cover"
+                />
+              </div>
+            </motion.div>
           ))}
-
-          {/* <button className="btn mx-auto xl:mx-0"> {t("button")}</button> */}
-        </motion.div>
-
-        <motion.div
-          initial={{ x: 60, opacity: 0 }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            transition: {
-              delay: 2.4,
-              duration: 0.8,
-              ease: "easeInOut",
-            },
-          }}
-          className="hidden xl:flex w-[384px] h-[534px] relative mt-10"
-        >
-          <img
-            src={"./assets/treatments/img.jpg"}
-            alt=""
-            className="object-contain"
-          />
+          <button className="btn mx-auto xl:mx-0"> {t("button")}</button>
         </motion.div>
       </div>
     </motion.section>

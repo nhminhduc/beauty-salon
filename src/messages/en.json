@@ -1,0 +1,84 @@
+{
+  "homepage": {
+    "title": "Nala Beauty",
+    "subtitle": "Nails & Lashes & Pedicure",
+    "description": "Welcome to Nala Beauty salon. We do nails, lashes and pedicure in Kaisaniemi -  the heart of Helsinki. Find us at the address Vuorikatu 8A30 Helsinki. We serve you professionally with care. Book your appointment with our professional technician now and get served today!",
+    "button": "Book an Appointment",
+    "price": "Price",
+    "grandOpeningOffer": "50%",
+    "offerDescription": "Offer for grand opening"
+  },
+  "contact": {
+    "address": "Vuorikatu 8A 30 <br></br> 00100 Helsinki <br></br> Finland",
+    "description": "Near the University of Helsinki metro. From the Espresso House (or exit F) you can take the escalator to the upper floor. Then take the stairs to the top floor. At the end of the stairs, go outside and look right",
+    "tel": "+358 44 244 7225",
+    "email": "nalabeauty.helsinki@gmail.com"
+  },
+  "treatments": {
+    "title": "Our services",
+    "description": "We implement beauty treatments according to your wishes. Our professional works with a creative and subtle approach.",
+    "point1": {
+      "title": "Nails",
+      "description": "Trendy nails, classic French varnishes, decorative nails or still and natural nails - beautiful and well-kept nails will be noticed! In our selection you can find natural nail manicures, gel polish and spa manicures. We also do structural nails with acrylic and gel. We give 5 days warranty for your nails"
+    },
+    "point2": {
+      "title": "Lashes",
+      "description": "We make attractive and high-quality eyelash extensions quickly and neatly. Our services include classic and volume eyelash extensions, hybrid lashes, design lashes, lash lift as well as shaping and coloring of the corners."
+    },
+    "point3": {
+      "title": "Pedicure",
+      "description": "Pamper yourself with a relaxing and caring spa pedicure. Our luxurious spa pedicure includes exfoliation, nail care and gel polish. Varnishing can also be done with gel according to wishes. Our foot care is done in massaging spa chairs, which guarantees a relaxing experience."
+    },
+    "button": "Book your appointment now and get yourself treated with us"
+  },
+  "giftcard": {
+    "title": "A gift card to a beauty salon",
+    "description": "The most pampering gift idea for the holidays is a gift card to Nala Beauty. A gift card to a beauty salon is a classic gift that brings a good mood and feeling, this gift will not disappoint! You can buy a gift card for yourself or your loved one in our salon."
+  },
+  "header": {
+    "tel": "+358 44 244 7225",
+    "email": "nalabeauty.helsinki@gmail.com"
+  },
+  "price": {
+    "title": "Our Price List",
+    "services": [
+      {
+        "category": "Nails",
+        "items": [
+          { "name": "Gel Nails", "price": "65€" },
+          { "name": "Acrylic Nails", "price": "70€" },
+          { "name": "Nail Art", "price": "10€-30€" },
+          { "name": "Manicure", "price": "40€" }
+        ]
+      },
+      {
+        "category": "Lashes",
+        "items": [
+          { "name": "Classic Lashes", "price": "80€" },
+          { "name": "Volume Lashes", "price": "100€" },
+          { "name": "Lash Lift", "price": "60€" }
+        ]
+      },
+      {
+        "category": "Pedicure",
+        "items": [
+          { "name": "Basic Pedicure", "price": "50€" },
+          { "name": "Spa Pedicure", "price": "70€" },
+          { "name": "Gel Polish for Toes", "price": "40€" }
+        ]
+      }
+    ]
+  },
+  "navigation": {
+    "links": [
+      {
+        "name": "Home",
+        "href": "/"
+      },
+      {
+        "name": "Price",
+        "href": "/price"
+      }
+    ]
+  }
+}
