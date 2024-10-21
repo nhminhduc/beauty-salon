@@ -20,7 +20,12 @@ const Header = () => {
 
   const switchLanguage = () => {
     const newLocale = locale === "en" ? "fi" : "en";
-    const newPathname = pathname.replace(`/${locale}`, `/${newLocale}`);
+    const basePath =
+      process.env.NODE_ENV === "production" ? "/beauty-salon" : "";
+    const newPathname = `${basePath}/${newLocale}${pathname.replace(
+      `/${locale}`,
+      ""
+    )}`;
     window.location.href = newPathname;
   };
 
@@ -78,7 +83,7 @@ const Header = () => {
           />
         </motion.div>
         <div className="hidden xl:block">
-          <Nav />
+          <Nav switchLanguage={switchLanguage} />
         </div>
       </div>
     </header>
