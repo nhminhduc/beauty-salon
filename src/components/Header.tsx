@@ -62,7 +62,10 @@ const Header = () => {
             href="/"
             className="text-primary-DEFAULT font-primary text-2xl xl:text-3xl"
           >
-            <h1>Nala Beauty</h1>
+            <img
+              src="./assets/logo.svg"
+              className="w-[80px] xl:w-[120px] h-auto"
+            />
           </Link>
         </div>
         <div

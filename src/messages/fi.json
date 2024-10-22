@@ -3,15 +3,21 @@
     "title": "Nala Beauty",
     "subtitle": "Kynnet - Ripset - Jalkahoito",
     "description": "Tervetuloa Nala Beauty -salonkiin. Teemme kynsiä, ripsiä ja pedikyyriä Kaisaniemessä - Helsingin sydämessä. Löydät meidät osoitteesta Vuorikatu 8a 30 Helsinki. Palvelemme sinua ammattitaidolla ja huolella. Varaa aikasi ammattiteknikkomme kanssa nyt ja saat palvelua jo tänään!",
-    "button": "Varaa aika",
+    "button": "varaa aikaa",
     "price": "Hinnasto",
-    "grandOpeningOffer": "50%",
-    "offerDescription": "Offer for grand opening"
+    "grandOpeningOffer": "Grand Opening!",
+    "offerDescription": "Avaustarjouksena -50% alennus kaikista palveluistamme alkuperäisistä hinnoista ensimmäisen kuukauden aikana (1.11-30.11)!"
   },
   "contact": {
+    "title": "Yhteystiedot",
+    "openingHoursTitle": "Avoinna",
+    "openingHours": "Ma - La: 9:00 - 20:00 <br></br> Su: 10:00 - 17:00 (tai sopimuksen mukaan)",
+    "addressTitle": "Osoite",
     "address": "Vuorikatu 8A 30 <br></br> 00100 Helsinki <br></br> Finland",
-    "description": "lähellä Helsingin yliopiston metroa. Espresso House:sta pääsee liukuportaat yläkertaan. Mene sitten portaita ylimpään kerrokseen. Portaiden päässä näet uuni, mene ulos ja katso oikealle!",
+    "description": "Lähellä Helsingin yliopiston metroa. Espresso House:sta (tai F-uloskäynnistä) pääsee liukuportaat yläkertaan. Mene sitten portaita ylimpään kerrokseen. Portaiden päässä mene ulos ja katso oikealle!",
+    "telTitle": "Puhelin",
     "tel": "+358 44 244 7225",
+    "emailTitle": "Sähköposti",
     "email": "nalabeauty.helsinki@gmail.com"
   },
   "treatments": {
@@ -19,7 +25,7 @@
     "description": "FI We implement beauty treatments according to your wishes. Our professional works with a creative and subtle approach.",
     "point1": {
       "title": "Kynnet",
-      "description": "Trendikynnet, klassiset ranskalaiset lakkaukset, koristeelliset kynnet tai neutraalit ja luonnolliset kynnet - kauniit ja hyvin hoidetut kynnet huomataan! Valikoimastamme löydät luonnonkynnen manikyyrit, geelilakkaukset sekä spa-jalkahoidot. Teemme myös rakennekynsiä acrygelillä sekä geelillä. Annamme kynsillesi 5 päivän takuun."
+      "description": "Trendikynnet, klassiset ranskalaiset lakkaukset, koristeelliset kynnet tai neutraalit ja luonnolliset kynnet – kauniit ja hyvin hoidetut kynnet huomataan! Valikoimastamme löydät luonnonkynnen manikyyrit ja geelilakkaukset. Teemme myös rakennekynsiä acrygelillä sekä geelillä. Annamme kynsillesi 5 päivän takuun."
     },
     "point2": {
       "title": "Ripset",
@@ -29,10 +35,11 @@
       "title": "Jalkahoito",
       "description": "Hemmottele itseäsi rentouttavalla ja hoitavalla kylpyläpedikyyrillä. Ylellinen spa pedikyyrimme sisältää kuorinnan, kynsien hoidon ja geelilakkauksen. Lakkaus voidaan tehdä myös geelillä toiveiden mukaan. Jalkahoitomme tehdään hierovissa spa-tuoleissa, mikä takaa rentouttavan kokemuksen."
     },
-    "button": "Varaa aikasi nyt ja hanki itsesi hoitoon kanssamme."
+    "buttonDescription": "Varaa aikasi nyt ja hanki itsesi hoitoon kanssamme",
+    "button": "varaa aikaa"
   },
   "giftcard": {
-    "title": "FI A gift card to a beauty salon",
+    "title": "Lahjakortti",
     "description": "Loistavin lahjaidea on lahjakortti Nala Beauty salonkiin. Lahjakortti kauneussalonkiin on klassinen lahja, joka tuo hyvän mielen ja fiiliksen, tämä lahja ei petä! Voit ostaa lahjakortin itsellesi tai rakkaallesi salongistamme."
   },
   "header": {

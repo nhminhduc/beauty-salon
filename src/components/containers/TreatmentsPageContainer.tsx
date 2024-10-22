@@ -36,9 +36,9 @@ const TreatmentsPageContainer = () => {
           <h2 className="h2 mb-6 mx-auto max-w-[540px] self-center xl:max-w-none">
             {t("title")}
           </h2>
-          <p className="lead max-w-[600px] mx-auto xl:mx-0 mb-14 self-center">
+          {/* <p className="lead max-w-[600px] mx-auto xl:mx-0 mb-14 self-center">
             {t("description")}
-          </p>
+          </p> */}
 
           {[1, 2, 3].map((pointNumber) => (
             <motion.div
@@ -68,11 +68,12 @@ const TreatmentsPageContainer = () => {
                 <img
                   src={`./assets/treatments/img${pointNumber}.jpg`}
                   alt={`Treatment ${pointNumber}`}
-                  className="w-[400px] h-[300px] rounded-lg object-cover"
+                  className="w-[500px] h-[400px] rounded-lg object-cover"
                 />
               </div>
             </motion.div>
           ))}
+          <h2 className="my-2 h4">{t("buttonDescription")}</h2>
           <button className="btn mx-auto xl:mx-0"> {t("button")}</button>
         </motion.div>
       </div>

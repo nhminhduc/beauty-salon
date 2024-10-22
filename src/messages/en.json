@@ -5,13 +5,19 @@
     "description": "Welcome to Nala Beauty salon. We do nails, lashes and pedicure in Kaisaniemi -  the heart of Helsinki. Find us at the address Vuorikatu 8A30 Helsinki. We serve you professionally with care. Book your appointment with our professional technician now and get served today!",
     "button": "Book an Appointment",
     "price": "Price",
-    "grandOpeningOffer": "50%",
-    "offerDescription": "Offer for grand opening"
+    "grandOpeningOffer": "Grand Opening!",
+    "offerDescription": "Avaustarjouksena -50% alennus kaikista palveluistamme alkuperäisistä hinnoista ensimmäisen kuukauden aikana (1.11-30.11)!"
   },
   "contact": {
+    "title": "Contact Info",
+    "openingHoursTitle": "Opening Hours",
+    "openingHours": "Mon - Sat: 9:00 - 20:00 <br></br> Sun: 10:00 - 17:00 (or to be agreed in advance)",
+    "addressTitle": "Address",
     "address": "Vuorikatu 8A 30 <br></br> 00100 Helsinki <br></br> Finland",
     "description": "Near the University of Helsinki metro. From the Espresso House (or exit F) you can take the escalator to the upper floor. Then take the stairs to the top floor. At the end of the stairs, go outside and look right",
+    "telTitle": "Phone",
     "tel": "+358 44 244 7225",
+    "emailTitle": "Email",
     "email": "nalabeauty.helsinki@gmail.com"
   },
   "treatments": {
@@ -19,7 +25,7 @@
     "description": "We implement beauty treatments according to your wishes. Our professional works with a creative and subtle approach.",
     "point1": {
       "title": "Nails",
-      "description": "Trendy nails, classic French varnishes, decorative nails or still and natural nails - beautiful and well-kept nails will be noticed! In our selection you can find natural nail manicures, gel polish and spa manicures. We also do structural nails with acrylic and gel. We give 5 days warranty for your nails"
+      "description": "Trendy nails, classic French varnishes, decorative nails or still and natural nails - beautiful and well-kept nails will be noticed! In our selection you can find natural nail manicures and gel polish. We also do structural nails with acrylic and gel. We give 5 days warranty for your nails."
     },
     "point2": {
       "title": "Lashes",

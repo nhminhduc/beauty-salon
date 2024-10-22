@@ -11,7 +11,6 @@ type NavProps = {
 const Nav = ({ switchLanguage }: NavProps) => {
   const t = useTranslations("navigation");
   const locale = useLocale();
-  const pathname = usePathname();
 
   return (
     <nav>

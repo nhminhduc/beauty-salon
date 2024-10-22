@@ -29,14 +29,25 @@ const ContactPageContainer = () => {
             }}
             className="flex-1 flex flex-col justify-center"
           >
-            <h3 className="h3 mb-8 text-center xl:text-left">Contact Info</h3>
+            <h3 className="h3 mb-8 text-center xl:text-left">{t("title")}</h3>
             <div className="flex flex-col items-start gap-12 mx-4">
+              <div className="flex items-start gap-4">
+                <div className="relative w-9 h-9 text-primary">
+                  <img src={"./assets/contact/clock.svg"} alt="" />
+                </div>
+                <div className="pt-1 flex-1">
+                  <h4 className="h4 mb-2">{t("openingHoursTitle")}</h4>
+                  <p className="leading-relaxed">
+                    {t.rich("openingHours", { br: () => <br /> })}
+                  </p>
+                </div>
+              </div>
               <div className="flex items-start gap-4">
                 <div className="relative w-9 h-9">
                   <img src={"./assets/contact/pin.svg"} alt="" />
                 </div>
                 <div className="pt-1 flex-1">
-                  <h4 className="h4 mb-2">Address</h4>
+                  <h4 className="h4 mb-2">{t("addressTitle")}</h4>
                   <p className="leading-relaxed">
                     {t.rich("address", { br: () => <br /> })}
                   </p>
@@ -48,7 +59,7 @@ const ContactPageContainer = () => {
                   <img src={"./assets/contact/phone.svg"} alt="" />
                 </div>
                 <div className="pt-1 flex-1">
-                  <h4 className="h4 mb-2">Phone Number</h4>
+                  <h4 className="h4 mb-2">{t("telTitle")}</h4>
                   <div className="pt-1 flex-1">{t("tel")}</div>
                 </div>
               </div>
@@ -57,7 +68,7 @@ const ContactPageContainer = () => {
                   <img src={"./assets/contact/email.svg"} alt="" />
                 </div>
                 <div className="pt-1 flex-1">
-                  <h4 className="h4 mb-2">Email Address</h4>
+                  <h4 className="h4 mb-2">{t("emailTitle")}</h4>
                   <div className="flex flex-col gap-1">{t("email")}</div>
                 </div>
               </div>
