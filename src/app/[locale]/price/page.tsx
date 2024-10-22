@@ -25,7 +25,10 @@ const PricePage = () => {
               },
               index: number
             ) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-md">
+              <div
+                key={index}
+                className="bg-white p-6 rounded-lg shadow-md h-fit"
+              >
                 <h2 className="h3 mb-4 text-accent">{service.category}</h2>
                 <ul>
                   {service.items.map(

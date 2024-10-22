@@ -1,11 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import TreatmentDetail from "../TreatmentDetail";
+import Link from "next/link";
 
 const TreatmentsPageContainer = () => {
   const t = useTranslations("treatments");
+  const locale = useLocale();
 
   return (
     <motion.section
@@ -74,7 +76,24 @@ const TreatmentsPageContainer = () => {
             </motion.div>
           ))}
           <h2 className="my-2 h4">{t("buttonDescription")}</h2>
-          <button className="btn mx-auto xl:mx-0"> {t("button")}</button>
+          <Link
+            className="btn mx-auto xl:mx-0"
+            href={`/${locale}`}
+            onClick={(e) => {
+              e.preventDefault();
+              const element = document.getElementById("reservationIframe28380");
+              if (element) {
+                const elementPosition = element.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.scrollY - 210;
+                window.scrollTo({
+                  top: offsetPosition,
+                  behavior: "smooth",
+                });
+              }
+            }}
+          >
+            {t("button")}
+          </Link>
         </motion.div>
       </div>
     </motion.section>

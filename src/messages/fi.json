@@ -52,26 +52,128 @@
       {
         "category": "Kynnet",
         "items": [
-          { "name": "Geelikynnet", "price": "65€" },
-          { "name": "Akryylikynnet", "price": "70€" },
-          { "name": "Kynsikoristelu", "price": "10€-30€" },
-          { "name": "Manikyyri", "price": "40€" }
+          { "name": "Perusmanikyyri, ilman lakkausta", "price": "22€" },
+          { "name": "Perusmanikyyri + Geelilakkaus uudet", "price": "52€" },
+          { "name": "Perusmanikyyri + Geelilakkaus huolto", "price": "62€" },
+          {
+            "name": "Geelilakkaus uudet (ei sis. vanhan lakan poistoa)",
+            "price": "30€"
+          },
+          {
+            "name": "Geelilakkaus huolto (sis. vanhan lakan poiston)",
+            "price": "40€"
+          },
+          {
+            "name": "Yksivärisen geelilakan vaihto (Geelilakkaus huolto)",
+            "price": "40€"
+          },
+          { "name": "Kestolakkaus yksivärinen", "price": "40€" },
+          { "name": "Kestolakkaus ranskalainen", "price": "50€" },
+          { "name": "Geelilakkaus, ranskalainen", "price": "50€" },
+          { "name": "Geelilakan poisto – Käsi", "price": "20€" },
+          { "name": "Yhden kynnen korjaus", "price": "15€" },
+          { "name": "Kahden kynnen korjaus", "price": "30€" },
+          { "name": "Rakennekynsien poisto – Akryylikynnet", "price": "25€" },
+          {
+            "name": "Rakennekynnet uudet, ei sis. väriä, ilman lakkausta",
+            "price": "55€"
+          },
+          {
+            "name": "Rakennekynnet uudet (sis. yksivärisen geelilakan)",
+            "price": "65€"
+          },
+          {
+            "name": "Rakennekynnet uudet, ranskalainen/kärkiväri Ombre",
+            "price": "75€"
+          },
+          { "name": "Rakennekynnet uudet, chrome/Fairy Dust", "price": "75€" },
+          {
+            "name": "Rakennekynsien huolto, ei sis. väriä, ilman lakkausta",
+            "price": "50€"
+          },
+          {
+            "name": "Rakennekynsien huolto (sis. yksivärisen geelilakan)",
+            "price": "55€"
+          },
+          {
+            "name": "Rakennekynsien huolto, ranskalainen/Kärkiväri Ombre",
+            "price": "65€"
+          },
+          {
+            "name": "Rakennekynsien huolto, chrome/Fairy Dust",
+            "price": "65€"
+          },
+          { "name": "Rakennekynnet geelillä, UUDET (värillä)", "price": "70€" },
+          {
+            "name": "Rakennekynnet geelillä, HUOLTO (sis. geelilakkaus)",
+            "price": "60€"
+          },
+          {
+            "name": "Yksivärisen geelilakan vaihto (Rakennekynnet)",
+            "price": "40€"
+          }
         ]
       },
       {
         "category": "Ripset",
         "items": [
-          { "name": "Klassiset ripset", "price": "80€" },
-          { "name": "Volyymi ripset", "price": "100€" },
-          { "name": "Ripsien kestotaivutus", "price": "60€" }
+          { "name": "Ripsien värjäys", "price": "20€" },
+          { "name": "Kulmien värjäys", "price": "20€" },
+          { "name": "Kulmien värjäys ja muotoilu", "price": "30€" },
+          { "name": "Ripsien ja kulmien värjäys ja muotoilu", "price": "37€" },
+          { "name": "Pidennysten poisto (Ripsien poisto)", "price": "32€" },
+          { "name": "Ripsien kestotaivutus & värjäys", "price": "70€" },
+          { "name": "Ripsien kestotaivutus", "price": "60€" },
+          { "name": "Ripsienpidennys klassinen", "price": "70€" },
+          { "name": "Ripsihuolto klassinen", "price": "60€" },
+          { "name": "Pikahuolto volyymi (30 min)", "price": "55€" },
+          { "name": "Pikahuolto klassinen (30 min)", "price": "45€" },
+          { "name": "Ripsienpidennys volyymi", "price": "80€" },
+          { "name": "Ripsihuolto volyymi", "price": "70€" },
+          { "name": "Ripsienpidennys volyymi (extra tuuheat)", "price": "90€" },
+          { "name": "Ripsihuolto volyymi (extra tuuheat)", "price": "80€" },
+          { "name": "Ripsienpidennys hybridi", "price": "80€" },
+          { "name": "Ripsihuolto hybridi", "price": "70€" },
+          { "name": "Ripsienpidennys hybridi Wispy", "price": "90€" },
+          { "name": "Mega volyymi ripsienpidennykset", "price": "100€" },
+          { "name": "Megavolyymien huolto", "price": "90€" },
+          { "name": "Ripsienpidennys Wet Look", "price": "70€" },
+          { "name": "Ripsihuolto Wet Look", "price": "65€" },
+          { "name": "Ripsienpidennys klassinen YY kuitu", "price": "75€" },
+          { "name": "Ripsihuolto klassinen YY kuitu", "price": "65€" }
         ]
       },
       {
-        "category": "Jalkahoito",
+        "category": "Jalkahoidot",
         "items": [
-          { "name": "Perusjalkahoito", "price": "50€" },
-          { "name": "Spa-jalkahoito", "price": "70€" },
-          { "name": "Varpaankynsien geelilakkaus", "price": "40€" }
+          { "name": "Spa-Jalkahoito (sopii myös miehille)", "price": "50€" },
+          { "name": "Varpaankynsien geelilakkaus uudet", "price": "35€" },
+          {
+            "name": "Varpaankynsien geelilakkaus (ranskalainen jalkakynsilakka)",
+            "price": "55€"
+          },
+          { "name": "Varpaankynsien kestolakkaus", "price": "45€" },
+          { "name": "Varpaankynsien geelilakkaus huolto", "price": "45€" },
+          {
+            "name": "Rakennekynnet uudet varpaisiin puuterigeeli tai akryyli",
+            "price": "90€"
+          },
+          {
+            "name": "Rakennekynnet huolto varpaisiin puuterigeeli tai akryyli",
+            "price": "85€"
+          },
+          { "name": "Spa-Jalkahoito + geelilakkaus", "price": "90€" },
+          { "name": "Rakennekynnet varpaisiin poisto", "price": "30€" },
+          { "name": "Varpaankynsien poisto geelilakkaus", "price": "25€" },
+          { "name": "Varpaankynsien leikkaus", "price": "25€" },
+          {
+            "name": "Rakennekynnet uudet varpaisiin puuterigeeli tai akryyli (ranskalainen jalkakynsilakka)",
+            "price": "100€"
+          },
+          {
+            "name": "Rakennekynnet huolto varpaisiin puuterigeeli tai akryyli (ranskalainen jalkakynsilakka)",
+            "price": "95€"
+          }
         ]
       }
     ]
@@ -87,5 +189,9 @@
         "href": "/price"
       }
     ]
+  },
+  "ehdot": {
+    "title": "Ehdot",
+    "content": "Varauksen peruminen tai siirtäminen on mahdollista viimeistään 10-12 tuntia ennen varattua aikaa. Jos varaus peruutetaan tai siihen ei ilmoiteta saman vuorokauden aikana, yrityksellä on oikeus veloittaa 50% palvelun hinnasta. Liikkeen ollessa kiinni jätä viesti tai soita meille."
   }
 }

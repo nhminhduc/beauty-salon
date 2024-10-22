@@ -51,26 +51,128 @@
       {
         "category": "Nails",
         "items": [
-          { "name": "Gel Nails", "price": "65€" },
-          { "name": "Acrylic Nails", "price": "70€" },
-          { "name": "Nail Art", "price": "10€-30€" },
-          { "name": "Manicure", "price": "40€" }
+          { "name": "Basic Manicure, without polish", "price": "22€" },
+          { "name": "Basic Manicure + Gel Polish (new)", "price": "52€" },
+          {
+            "name": "Basic Manicure + Gel Polish (maintenance)",
+            "price": "62€"
+          },
+          {
+            "name": "Gel Polish (new, without old polish removal)",
+            "price": "30€"
+          },
+          {
+            "name": "Gel Polish (maintenance, includes old polish removal)",
+            "price": "40€"
+          },
+          {
+            "name": "Single color gel polish change (Gel Polish maintenance)",
+            "price": "40€"
+          },
+          { "name": "Durable single color polish", "price": "40€" },
+          { "name": "Durable French polish", "price": "50€" },
+          { "name": "Gel Polish, French", "price": "50€" },
+          { "name": "Gel Polish removal - Hand", "price": "20€" },
+          { "name": "Single nail repair", "price": "15€" },
+          { "name": "Two nails repair", "price": "30€" },
+          { "name": "Acrylic nails removal", "price": "25€" },
+          {
+            "name": "New structural nails, without color, without polish",
+            "price": "55€"
+          },
+          {
+            "name": "New structural nails (includes single color gel polish)",
+            "price": "65€"
+          },
+          {
+            "name": "New structural nails, French/tip color Ombre",
+            "price": "75€"
+          },
+          { "name": "New structural nails, chrome/Fairy Dust", "price": "75€" },
+          {
+            "name": "Structural nails maintenance, without color, without polish",
+            "price": "50€"
+          },
+          {
+            "name": "Structural nails maintenance (includes single color gel polish)",
+            "price": "55€"
+          },
+          {
+            "name": "Structural nails maintenance, French/tip color Ombre",
+            "price": "65€"
+          },
+          {
+            "name": "Structural nails maintenance, chrome/Fairy Dust",
+            "price": "65€"
+          },
+          { "name": "Gel structural nails, NEW (with color)", "price": "70€" },
+          {
+            "name": "Gel structural nails, MAINTENANCE (includes gel polish)",
+            "price": "60€"
+          },
+          {
+            "name": "Single color gel polish change (Structural nails)",
+            "price": "40€"
+          }
         ]
       },
       {
         "category": "Lashes",
         "items": [
-          { "name": "Classic Lashes", "price": "80€" },
-          { "name": "Volume Lashes", "price": "100€" },
-          { "name": "Lash Lift", "price": "60€" }
+          { "name": "Eyelash tinting", "price": "20€" },
+          { "name": "Eyebrow tinting", "price": "20€" },
+          { "name": "Eyebrow tinting and shaping", "price": "30€" },
+          { "name": "Eyelash and eyebrow tinting and shaping", "price": "37€" },
+          { "name": "Extensions removal (Lash removal)", "price": "32€" },
+          { "name": "Lash lift & tint", "price": "70€" },
+          { "name": "Lash lift", "price": "60€" },
+          { "name": "Classic lash extensions", "price": "70€" },
+          { "name": "Classic lash maintenance", "price": "60€" },
+          { "name": "Quick volume maintenance (30 min)", "price": "55€" },
+          { "name": "Quick classic maintenance (30 min)", "price": "45€" },
+          { "name": "Volume lash extensions", "price": "80€" },
+          { "name": "Volume lash maintenance", "price": "70€" },
+          { "name": "Volume lash extensions (extra full)", "price": "90€" },
+          { "name": "Volume lash maintenance (extra full)", "price": "80€" },
+          { "name": "Hybrid lash extensions", "price": "80€" },
+          { "name": "Hybrid lash maintenance", "price": "70€" },
+          { "name": "Hybrid Wispy lash extensions", "price": "90€" },
+          { "name": "Mega volume lash extensions", "price": "100€" },
+          { "name": "Mega volume maintenance", "price": "90€" },
+          { "name": "Wet Look lash extensions", "price": "70€" },
+          { "name": "Wet Look lash maintenance", "price": "65€" },
+          { "name": "Classic YY fiber lash extensions", "price": "75€" },
+          { "name": "Classic YY fiber lash maintenance", "price": "65€" }
         ]
       },
       {
         "category": "Pedicure",
         "items": [
-          { "name": "Basic Pedicure", "price": "50€" },
-          { "name": "Spa Pedicure", "price": "70€" },
-          { "name": "Gel Polish for Toes", "price": "40€" }
+          { "name": "Spa Pedicure (suitable for men too)", "price": "50€" },
+          { "name": "Toe gel polish (new)", "price": "35€" },
+          { "name": "Toe gel polish (French)", "price": "55€" },
+          { "name": "Toe durable polish", "price": "45€" },
+          { "name": "Toe gel polish maintenance", "price": "45€" },
+          {
+            "name": "New structural nails for toes (powder gel or acrylic)",
+            "price": "90€"
+          },
+          {
+            "name": "Structural nails maintenance for toes (powder gel or acrylic)",
+            "price": "85€"
+          },
+          { "name": "Spa Pedicure + gel polish", "price": "90€" },
+          { "name": "Structural nails removal for toes", "price": "30€" },
+          { "name": "Toe gel polish removal", "price": "25€" },
+          { "name": "Toenail trimming", "price": "25€" },
+          {
+            "name": "New structural nails for toes (powder gel or acrylic, French)",
+            "price": "100€"
+          },
+          {
+            "name": "Structural nails maintenance for toes (powder gel or acrylic, French)",
+            "price": "95€"
+          }
         ]
       }
     ]
@@ -86,5 +188,9 @@
         "href": "/price"
       }
     ]
+  },
+  "ehdot": {
+    "title": "Terms",
+    "content": "Cancellation or rescheduling of a reservation is possible up to 10-12 hours before the reserved time. If a reservation is cancelled or not notified on the same day, the company has the right to charge 50% of the service price. When the store is closed, leave a message or call us."
   }
 }
