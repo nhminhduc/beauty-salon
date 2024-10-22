@@ -12,6 +12,10 @@ const PricePage = () => {
     <section className="pt-36 pb-24 bg-secondary">
       <div className="container mt-12 xl:mt-24 mx-auto">
         <h1 className="h1 text-center mb-12">{t("title")}</h1>
+        <p className="text-center mb-8 text-lg font-semibold text-red-500">
+          Avaustarjouksena -50% alennus kaikista palveluistamme alkuperäisistä
+          hinnoista ensimmäisen kuukauden aikana (1.11-30.11)!
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map(
             (

@@ -1,11 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 
 const HomePageContainer = () => {
   const t = useTranslations("homepage");
+  const locale = useLocale();
 
   const isNovember2024 = () => {
     const now = new Date();
@@ -59,7 +60,7 @@ const HomePageContainer = () => {
 
             <div className="flex flex-row items-center gap-6 max-w-max mx-auto xl:mx-0">
               <button className="btn btn-lg">{t("button")}</button>
-              <Link className="btn btn-lg" href="/price">
+              <Link className="btn btn-lg" href={`/${locale}/price`}>
                 {t("price")}
               </Link>
               {/* <div>
