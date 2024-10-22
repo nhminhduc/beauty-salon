@@ -9,7 +9,10 @@ const HomePageContainer = () => {
 
   const isNovember2024 = () => {
     const now = new Date();
-    return now.getFullYear() === 2024 && now.getMonth() === 9; // November is 10 (0-indexed)
+    return (
+      now.getFullYear() === 2024 &&
+      (now.getMonth() === 9 || now.getMonth() === 10)
+    ); // November is 10 (0-indexed)
   };
 
   return (
