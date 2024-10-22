@@ -87,12 +87,22 @@ const HomePageContainer = () => {
               </Link>
             </div>
           </motion.div>
-          <iframe
-            width="100%"
-            src="https://varaa.timma.fi/reservation/nalabeauty"
-            id="reservationIframe28380"
-            className="border h-[616px]"
-          ></iframe>
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            animate={{
+              opacity: 1,
+              y: 0,
+              transition: { delay: 2.5, duration: 1, ease: "easeInOut" },
+            }}
+            className="w-full"
+          >
+            <iframe
+              width="100%"
+              src="https://varaa.timma.fi/reservation/nalabeauty"
+              id="reservationIframe28380"
+              className="border h-[616px]"
+            ></iframe>
+          </motion.div>
         </div>
       </div>
     </motion.section>
