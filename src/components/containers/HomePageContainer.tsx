@@ -22,9 +22,6 @@ const HomePageContainer = () => {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transition: {
-          delay: 2,
-        },
       }}
       className="flex overflow-x-hidden pt-20 xl:pt-48 bg-white pb-4"
     >
@@ -41,7 +38,7 @@ const HomePageContainer = () => {
             animate={{
               opacity: 1,
               y: 0,
-              transition: { delay: 2, duration: 1, ease: "easeInOut" },
+              transition: { duration: 1, ease: "easeInOut" },
             }}
             className="w-full text-center xl:text-left xl:w-full flex flex-col items-center"
           >
@@ -52,7 +49,7 @@ const HomePageContainer = () => {
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 2.5, duration: 0.5 }}
+                transition={{ duration: 0.5 }}
                 className="bg-secondary text-red-500 p-4 rounded-lg mb-6 mt-4 mx-4 xl:mx-12 text-center shadow-md flex flex-col gap-2"
               >
                 <p className="font-bold h2">{t("grandOpeningOffer")}</p>
@@ -92,7 +89,7 @@ const HomePageContainer = () => {
             animate={{
               opacity: 1,
               y: 0,
-              transition: { delay: 2.5, duration: 1, ease: "easeInOut" },
+              transition: { duration: 1, ease: "easeInOut" },
             }}
             className="w-full"
           >

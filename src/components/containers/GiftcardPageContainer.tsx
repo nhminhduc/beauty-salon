@@ -22,7 +22,7 @@ const GiftcardPageContainer = () => {
           <motion.div
             initial={{ x: -60, opacity: 0 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 2, duration: 0.8, ease: "easeInOut" }}
+            transition={{ delay: 1, duration: 0.8, ease: "easeInOut" }}
             className="relative w-[304px] h-[200px] xl:w-[384px] xl:h-[200px] mb-8 xl:mb-0 mx-auto xl:mx-0"
           >
             <img
@@ -34,7 +34,7 @@ const GiftcardPageContainer = () => {
           <motion.div
             initial={{ x: 60, opacity: 0 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 2.4, duration: 0.8, ease: "easeInOut" }}
+            transition={{ delay: 1.4, duration: 0.8, ease: "easeInOut" }}
             className="flex flex-col items-start xl:max-w-[650px] text-center xl:text-left mx-auto xl:mx-0"
           >
             <h2 className="h2 mb-6 mx-auto max-w-[540px] xl:max-w-none">

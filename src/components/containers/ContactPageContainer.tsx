@@ -25,7 +25,7 @@ const ContactPageContainer = () => {
             animate={{
               opacity: 1,
               x: 0,
-              transition: { delay: 2, duration: 0.8, ease: "easeInOut" },
+              transition: { delay: 1, duration: 0.8, ease: "easeInOut" },
             }}
             className="flex-1 flex flex-col justify-center"
           >
@@ -79,7 +79,7 @@ const ContactPageContainer = () => {
             animate={{
               opacity: 1,
               x: 0,
-              transition: { delay: 2.4, duration: 0.8, ease: "easeInOut" },
+              transition: { delay: 1.4, duration: 0.8, ease: "easeInOut" },
             }}
             className="self-center"
           >

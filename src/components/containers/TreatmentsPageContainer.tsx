@@ -16,7 +16,7 @@ const TreatmentsPageContainer = () => {
       animate={{
         opacity: 1,
         transition: {
-          delay: 2,
+          delay: 1,
         },
       }}
       className="flex items-center overflow-x-hidden"
@@ -28,7 +28,7 @@ const TreatmentsPageContainer = () => {
             x: 0,
             opacity: 1,
             transition: {
-              delay: 2,
+              delay: 1,
               duration: 0.8,
               ease: "easeInOut",
             },
@@ -50,7 +50,7 @@ const TreatmentsPageContainer = () => {
                 opacity: 1,
                 y: 0,
                 transition: {
-                  delay: 2 + pointNumber * 0.2,
+                  delay: 1 + pointNumber * 0.2,
                   duration: 0.8,
                   ease: "easeInOut",
                 },
