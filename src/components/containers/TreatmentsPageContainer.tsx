@@ -68,7 +68,7 @@ const TreatmentsPageContainer = () => {
                 } flex justify-center xl:justify-start`}
               >
                 <img
-                  src={`./assets/treatments/img${pointNumber}.jpg`}
+                  src={`/assets/treatments/img${pointNumber}.jpg`}
                   alt={`Treatment ${pointNumber}`}
                   className="w-[500px] h-[400px] rounded-lg object-cover"
                 />

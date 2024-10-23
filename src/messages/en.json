@@ -35,7 +35,8 @@
       "title": "Pedicure",
       "description": "Pamper yourself with a relaxing and caring spa pedicure. Our luxurious spa pedicure includes exfoliation, nail care and gel polish. Varnishing can also be done with gel according to wishes. Our foot care is done in massaging spa chairs, which guarantees a relaxing experience."
     },
-    "button": "Book your appointment now and get yourself treated with us"
+    "button": "Book your appointment now and get yourself treated with us",
+    "buttonDescription": "Varaa aikasi nyt ja hanki itsesi hoitoon kanssamme"
   },
   "giftcard": {
     "title": "A gift card to a beauty salon",

@@ -33,7 +33,7 @@ const ContactPageContainer = () => {
             <div className="flex flex-col items-start gap-12 mx-4">
               <div className="flex items-start gap-4">
                 <div className="relative w-9 h-9 text-primary">
-                  <img src={"./assets/contact/clock.svg"} alt="" />
+                  <img src={"/assets/contact/clock.svg"} alt="" />
                 </div>
                 <div className="pt-1 flex-1">
                   <h4 className="h4 mb-2">{t("openingHoursTitle")}</h4>
@@ -44,7 +44,7 @@ const ContactPageContainer = () => {
               </div>
               <div className="flex items-start gap-4">
                 <div className="relative w-9 h-9">
-                  <img src={"./assets/contact/pin.svg"} alt="" />
+                  <img src={"/assets/contact/pin.svg"} alt="" />
                 </div>
                 <div className="pt-1 flex-1">
                   <h4 className="h4 mb-2">{t("addressTitle")}</h4>
@@ -56,7 +56,7 @@ const ContactPageContainer = () => {
               </div>
               <div className="flex items-start gap-4">
                 <div className="relative w-9 h-9">
-                  <img src={"./assets/contact/phone.svg"} alt="" />
+                  <img src={"/assets/contact/phone.svg"} alt="" />
                 </div>
                 <div className="pt-1 flex-1">
                   <h4 className="h4 mb-2">{t("telTitle")}</h4>
@@ -65,7 +65,7 @@ const ContactPageContainer = () => {
               </div>
               <div className="flex items-start gap-4">
                 <div className="relative w-9 h-9">
-                  <img src={"./assets/contact/email.svg"} alt="" />
+                  <img src={"/assets/contact/email.svg"} alt="" />
                 </div>
                 <div className="pt-1 flex-1">
                   <h4 className="h4 mb-2">{t("emailTitle")}</h4>

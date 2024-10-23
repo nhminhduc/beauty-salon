@@ -56,13 +56,15 @@ export default async function RootLayout({
   return (
     <html lang="en" className={`scroll-smooth`}>
       <head>
-        <Script
+        {/* <Script
           src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/2.8.3/iframeResizer.min.js"
           strategy="afterInteractive"
         />
-        <Script id="iframe-resizer">
-          {`iFrameResize({ checkOrigin: false }, "#reservationIframe28380");`}
-        </Script>
+        <Script id="iframe-resizer-init" strategy="afterInteractive">
+          {`
+            iFrameResize({checkOrigin: false}, '#reservationIframe28380');
+          `}
+        </Script> */}
       </head>
       <body
         className={`${marcellus.variable} ${montserrat.variable} overflow-x-hidden`}

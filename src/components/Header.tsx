@@ -20,12 +20,9 @@ const Header = () => {
 
   const switchLanguage = () => {
     const newLocale = locale === "en" ? "fi" : "en";
-    const basePath =
-      process.env.NODE_ENV === "production" ? "/beauty-salon" : "";
-    const newPathname = `${basePath}/${newLocale}${pathname.replace(
-      `/${locale}`,
-      ""
-    )}`;
+    // const basePath =
+    //   process.env.NODE_ENV === "production" ? "/beauty-salon" : "";
+    const newPathname = `/${newLocale}${pathname.replace(`/${locale}`, "")}`;
     window.location.href = newPathname;
   };
 
@@ -63,7 +60,7 @@ const Header = () => {
             className="text-primary-DEFAULT font-primary text-2xl xl:text-3xl"
           >
             <img
-              src="./assets/logo.svg"
+              src="/assets/logo.svg"
               className="w-[80px] xl:w-[120px] h-auto"
             />
           </Link>
