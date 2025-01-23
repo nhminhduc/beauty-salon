@@ -43,7 +43,7 @@ const HomePageContainer = () => {
             className="w-full text-center xl:text-left xl:w-full flex flex-col items-center"
           >
             <p className="lead max-w-xl mx-auto text-center">
-              {t("description")}
+              {t.rich("description", { br: () => <br /> })}
             </p>
             {isNovember2024() && (
               <motion.div
@@ -53,13 +53,13 @@ const HomePageContainer = () => {
                 className="bg-secondary text-red-500 p-4 rounded-lg mb-6 mt-4 mx-4 xl:mx-12 text-center shadow-md flex flex-col gap-2"
               >
                 <p className="font-bold h2">{t("grandOpeningOffer")}</p>
-                <p className="text-xl">{t("offerDescription")}</p>
+                {/* <p className="text-xl">{t("offerDescription")}</p> */}
               </motion.div>
             )}
 
-            <div className="flex flex-row items-center gap-6 max-w-max mx-auto xl:mx-0">
+            <div className="flex flex-row xl:flex-col items-center gap-2 max-w-max mx-auto xl:mx-0">
               <Link
-                className="btn btn-lg"
+                className="btn"
                 href={`/${locale}`}
                 onClick={(e) => {
                   e.preventDefault();
@@ -79,8 +79,11 @@ const HomePageContainer = () => {
               >
                 {t("button")}
               </Link>
-              <Link className="btn btn-lg" href={`/${locale}/price`}>
+              <Link className="btn" href={`/${locale}/price`}>
                 {t("price")}
+              </Link>
+              <Link className="btn" href={`/${locale}/directions`}>
+                {t("directions")}
               </Link>
             </div>
           </motion.div>
