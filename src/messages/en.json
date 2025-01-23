@@ -2,9 +2,10 @@
   "homepage": {
     "title": "Nala Beauty",
     "subtitle": "Nails & Lashes & Pedicure",
-    "description": "Welcome to Nala Beauty salon. We do nails, lashes and pedicure in Kaisaniemi -  the heart of Helsinki. Find us at the address Vuorikatu 8A30 Helsinki. We serve you professionally with care. Book your appointment with our professional technician now and get served today!",
+    "description": "Welcome to Nala Beauty salon. We do nails, lashes and pedicure in Kaisaniemi -  the heart of Helsinki. Find us at the address Vuorikatu 8A30 Helsinki. We serve you professionally with care. Book your appointment with our professional technician now and get served today!<br></br>We do personal discounts for every customer!",
     "button": "Book an Appointment",
     "price": "Price",
+    "directions": "Directions",
     "grandOpeningOffer": "Grand Opening!",
     "offerDescription": "Avaustarjouksena -50% alennus kaikista palveluistamme alkuperäisistä hinnoista ensimmäisen kuukauden aikana (1.11-30.11)!"
   },
@@ -13,8 +14,8 @@
     "openingHoursTitle": "Opening Hours",
     "openingHours": "Mon - Sat: 9:00 - 20:00 <br></br> Sun: 10:00 - 17:00 (or to be agreed in advance)",
     "addressTitle": "Address",
-    "address": "Vuorikatu 8A 30 <br></br> 00100 Helsinki <br></br> Finland",
-    "description": "Near the University of Helsinki metro. From the Espresso House (or exit F) you can take the escalator to the upper floor. Then take the stairs to the top floor. At the end of the stairs, go outside and look right",
+    "address": "Vuorikatu 8 <br></br> 00100 Helsinki <br></br> Finland",
+    "description": "From Espressohouse inside the University of Helsinki metro station, take the escalator up to the upper floor (Exit F). After that, go up the stairs to the top floor. At the top of the stairs, go outside and look to the right!",
     "telTitle": "Phone",
     "tel": "+358 44 244 7225",
     "emailTitle": "Email",
@@ -187,11 +188,62 @@
       {
         "name": "Price",
         "href": "/price"
+      },
+      {
+        "name": "Salon policy",
+        "href": "/policy"
+      },
+      {
+        "name": "Directions",
+        "href": "/directions"
       }
     ]
   },
   "ehdot": {
     "title": "Terms",
-    "content": "Cancellation or rescheduling of a reservation is possible up to 10-12 hours before the reserved time. If a reservation is cancelled or not notified on the same day, the company has the right to charge 50% of the service price. When the store is closed, leave a message or call us."
+    "content": "Cancellation or rescheduling of a reservation is possible up to 10-12 hours before the reserved time. If a reservation is cancelled or not notified on the same day, the company has the right to charge 80% of the service price. When the store is closed, leave a message or call us."
+  },
+  "directions": {
+    "title": "How to Find Us",
+    "fromMetro": "From the University of Helsinki metro station",
+    "metroDescription": "We are located just above the University of Helsinki metro station. Here is the direction video instructed how to reach NALA BEAUTY by metro",
+    "metroUrl": "https://youtube.com/shorts/If8VDoMjLc8?si=Mn9P636gjChX2Sg8",
+    "fromKaisaniemi": "From Kaisaniemi road",
+    "kaisaniemiDescription": "Here is the direction video instructed how to reach NALA BEAUTY from Kaisaniemi road",
+    "kaisaniemiUrl": "https://youtube.com/shorts/g9_p0SlLWvU?si=yB8BZLv_95dBoeCB"
+  },
+  "policy": {
+    "title": "Salon Policy",
+    "intro": "From this page, you can find out NALA BEAUTY salon policy, our guarantee as well as refund policy. Please read through carefully before making a reservation.",
+    "policyTitle": "Policy",
+    "policy1": "Clearly stating which service you wish to receive.",
+    "policy2": "Informing the staff in advance if you are allergic to any chemicals or substances before the service begins.",
+    "policy3": "Providing feedback and comments to the staff about their service during the treatment so that we can meet your expectations in the best possible way.",
+    "policy4": "Immediately notifying the staff or the salon manager if you have concerns about the salon, staff, or service.",
+    "policy5": "Immediately informing the salon manager if you experience an abnormal reaction or issue with your nails or any other treated area after the service.",
+    "policy6": "Ensuring that children are always accompanied by an adult. We are not responsible for accidents that may occur to children during the treatment at the salon.",
+    "policy7": "Noting that we are not responsible for the loss or damage of personal items in the salon.",
+    "policy8": "Noting that clients must cancel at least 24 hours before the scheduled appointment. Late cancellations or no-shows may be charged.",
+    "policy9": "Noting that the salon does not take photos or videos of clients without written consent.",
+    "warrantyTitle": "Warranty",
+    "warrantyIntro": "Remember: Nails are jewels, not tools.<br></br> Be gentle with your nails, and they will stay beautiful for weeks after the service.",
+    "warranty1": "A 7-day warranty is provided for gel polish, extensions, and lashes.<br></br>If you notice lifting, chipping, or other issues within 7 days, call us, and we will book an appointment for a free repair.",
+    "warranty2": "The repair appointment must be made within 7 days of the original visit.",
+    "warranty3": "Repairs after 7 days are chargeable, including damages caused by the client's own actions, such as nail breakage or scratching.",
+    "warranty4": "We are not responsible for broken nails or falling lashes after you have left the salon if you have not followed the provided aftercare instructions.",
+    "warranty5": "Our warranty does not cover issues caused by the customer's own actions, such as using nails as tools or home repairs or ripping off your lashes.",
+    "specialCircumstancesTitle": "Special circumstances:",
+    "specialCircumstances1": "If you experience an abnormal reaction, such as nail inflammation or an allergic reaction, contact us immediately for advice.",
+    "specialCircumstances2": "Nail removals: Nail work done by others or home removal or repair attempts are not covered under warranty. We recommend booking an appointment with a professional for safe nail removal.",
+    "refundTitle": "Refund Policy",
+    "refundIntro": "Cash refunds are not granted after you have left our salon. <br></br> Leaving the salon is considered as acceptance of the service result and indicates that you are satisfied with it.",
+    "refund1Title": "Report dissatisfaction before paying.",
+    "refund1": "If you are not satisfied with your nails, inform the staff before payment. We will make the necessary corrections to ensure your satisfaction, or we will remove any enhancements or coatings applied.",
+    "refund2Title": "Refunds will not be given due to change of mind.",
+    "refund2": "Once you have paid for the service and accepted the result, we cannot provide a refund simply due to a change of mind.",
+    "refund3Title": "We will fix service errors free of charge.",
+    "refund3": "If you are not satisfied with the quality of the work, let us know immediately after the service. We will offer a free correction. A free correction service is only available if you report the issue immediately after the service ends.",
+    "refund4Title": "Refunds are approved only in exceptional cases.",
+    "refund4": "If a refund is approved, it will be processed via bank transfer within 30 days. Refunds require the provision of bank details."
   }
 }

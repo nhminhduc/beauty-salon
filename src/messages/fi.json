@@ -2,9 +2,10 @@
   "homepage": {
     "title": "Nala Beauty",
     "subtitle": "Kynnet - Ripset - Jalkahoito",
-    "description": "Tervetuloa Nala Beauty -salonkiin. Teemme kynsiä, ripsiä ja pedikyyriä Kaisaniemessä - Helsingin sydämessä. Löydät meidät osoitteesta Vuorikatu 8a 30 Helsinki. Palvelemme sinua ammattitaidolla ja huolella. Varaa aikasi ammattiteknikkomme kanssa nyt ja saat palvelua jo tänään!",
+    "description": "Tervetuloa Nala Beauty -salonkiin. Teemme kynsiä, ripsiä ja pedikyyriä Kaisaniemessä - Helsingin sydämessä. Löydät meidät osoitteesta Vuorikatu 8a 30 Helsinki. Palvelemme sinua ammattitaidolla ja huolella. Varaa aikasi ammattiteknikkomme kanssa nyt ja saat palvelua jo tänään! <br></br>Teemme henkilökohtaisia alennuksia jokaiselle asiakkaalle!",
     "button": "varaa aikaa",
     "price": "Hinnasto",
+    "directions": "Reittivideo",
     "grandOpeningOffer": "Grand Opening!",
     "offerDescription": "Avaustarjouksena -50% alennus kaikista palveluistamme alkuperäisistä hinnoista ensimmäisen kuukauden aikana (1.11-30.11)!"
   },
@@ -13,8 +14,8 @@
     "openingHoursTitle": "Avoinna",
     "openingHours": "Ma - La: 9:00 - 20:00 <br></br> Su: 10:00 - 17:00 (tai sopimuksen mukaan)",
     "addressTitle": "Osoite",
-    "address": "Vuorikatu 8A 30 <br></br> 00100 Helsinki <br></br> Finland",
-    "description": "Lähellä Helsingin yliopiston metroa. Espresso House:sta (tai F-uloskäynnistä) pääsee liukuportaat yläkertaan. Mene sitten portaita ylimpään kerrokseen. Portaiden päässä mene ulos ja katso oikealle!",
+    "address": "Vuorikatu 8 <br></br> 00100 Helsinki <br></br> Finland",
+    "description": "Espressohousesta Helsingin yliopiston metroasemalta, mene liukuportaita ylös yläkertaan (Ulos F). Sen jälkeen mene portaita ylimpään kerrokseen. Portaiden päässä mene ulos ja katso oikealle!",
     "telTitle": "Puhelin",
     "tel": "+358 44 244 7225",
     "emailTitle": "Sähköposti",
@@ -187,11 +188,62 @@
       {
         "name": "Hinnasto",
         "href": "/price"
+      },
+      {
+        "name": "Salongin käytännöt",
+        "href": "/policy"
+      },
+      {
+        "name": "Reittiohjeet",
+        "href": "/directions"
       }
     ]
   },
   "ehdot": {
     "title": "Ehdot",
-    "content": "Varauksen peruminen tai siirtäminen on mahdollista viimeistään 10-12 tuntia ennen varattua aikaa. Jos varaus peruutetaan tai siihen ei ilmoiteta saman vuorokauden aikana, yrityksellä on oikeus veloittaa 50% palvelun hinnasta. Liikkeen ollessa kiinni jätä viesti tai soita meille."
+    "content": "Varauksen peruminen tai siirtäminen on mahdollista viimeistään 10-12 tuntia ennen varattua aikaa. Jos varaus peruutetaan tai siihen ei ilmoiteta saman vuorokauden aikana, yrityksellä on oikeus veloittaa 80% palvelun hinnasta. Liikkeen ollessa kiinni jätä viesti tai soita meille."
+  },
+  "directions": {
+    "title": "Reittiohjeet",
+    "fromMetro": "Helsingin yliopiston metroasemalta",
+    "metroDescription": "Sijaitsemme aivan Helsingin yliopiston metroaseman yläpuolella. Tässä on reittiohjeet video, joka näyttää, miten pääset NALA BEAUTY- salokiin metrolla",
+    "metroUrl": "https://youtube.com/shorts/If8VDoMjLc8?si=Mn9P636gjChX2Sg8",
+    "fromKaisaniemi": "Kaisaniemenkadulta",
+    "kaisaniemiDescription": "Tässä on reittiohjeet video, joka näyttää, miten päästä NALA BEAUTY-salonkiin Kaisaniemenkadulta",
+    "kaisaniemiUrl": "https://youtube.com/shorts/g9_p0SlLWvU?si=yB8BZLv_95dBoeCB"
+  },
+  "policy": {
+    "title": "SALONGIN KÄYTÄNNÖT",
+    "intro": "Tästä sivulta löydät NALA BEAUTY -salongin käytännöt, takuuehdot sekä palautuskäytännön. Lue ne huolellisesti ennen ajanvarauksen tekemistä.",
+    "policyTitle": "Käytännöt",
+    "policy1": "Ilmoittamaan selkeästi, minkä palvelun haluat saada.",
+    "policy2": "Kertomaan henkilökunnalle etukäteen, jos olet allerginen joillekin kemikaaleille tai aineille, ennen kuin palvelu aloitetaan.",
+    "policy3": "Antamaan palautetta ja kommentteja henkilökunnan palveluista palvelun aikana, jotta voimme täyttää odotuksesi parhaalla mahdollisella tavalla.",
+    "policy4": "Ilmoittamaan välittömästi henkilökunnalle tai salongin johtajalle, jos sinulla on huolia salongin, henkilökunnan tai palvelun suhteen.",
+    "policy5": "Ilmoittamaan välittömästi salongin johtajalle, jos koet epänormaalin reaktion tai ongelman kynteisi tai muuhun hoidettuun alueeseen palvelun jälkeen.",
+    "policy6": "Huolehtimaan siitä, että lapset ovat aina aikuisen seurassa. emme ole vastuussa onnettomuuksista, jotka voivat sattua lapsille salongissa hoidon aikana.",
+    "policy7": "Huomioimaan, että emme ole vastuussa henkilökohtaisten tavaroidesi menetyksestä tai vahingoittumisesta salongissa.",
+    "policy8": "Huomioimaan, että asiakkaan tulee ilmoittaa peruutuksista vähintään 24 tuntia ennen sovittua aikaa. myöhässä peruutetut ajat tai ilman peruutusta jätetyt ajat voidaan laskuttaa.",
+    "policy9": "Huomioimaan, että salonki ei ota kuva- tai videomateriaalia asiakkaista ilman suostumusta.",
+    "warrantyTitle": "Salongin takuu",
+    "warrantyIntro": "Muista: Kynnet ovat jalokiviä, eivät työkaluja.<br></br>Ole hellävarainen kynsillesi, niin ne pysyvät kauniina vielä viikkoja palvelun jälkeen.",
+    "warranty1": "GEELILAKKAUKSILLE JA RAKENTEILLE SEKÄ RIPSET ANNETAAN 7 PÄIVÄÄ TAKUU.<br></br>Jos huomaat irtoamista, lohkeamia tai muita ongelmia 7 päivää sisällä, soita meille, niin varaamme sinulle ajan ilmaista korjausta varten.",
+    "warranty2": "AIKA KORJAUKSEEN TULEE SOPIA 7 PÄIVÄN KULUESSA ALKUPERÄISESTÄ KÄYNNISTÄ.",
+    "warranty3": "KORJAUKSET 7 PÄIVÄÄ JÄLKEEN OVAT MAKSULLISIA, mukaan lukien vahingot, jotka johtuvat asiakkaan omista toimista, kuten kynsien katkeamisesta tai kolhimisesta.",
+    "warranty4": "EMME OLE VASTUUSSA RIKKOUTUNEISTA KYNSISTÄ TAI putoavat ripsista SEN JÄLKEEN, KUN OLET POISTUNUT SALONGISTA, jos et ole noudattanut annettuja kotihoito-ohjeita.",
+    "warranty5": "Takuu ei kata asiakkaan omista toimista johtuvia ongelmia, kuten kynsien käyttämistä työkaluna, kotona tehtyjä korjauksia tai ripsien repimistä.",
+    "specialCircumstancesTitle": "Poikkeustilanteet:",
+    "specialCircumstances1": "Jos koet epänormaalin reaktion, kuten kynsien tulehtumista tai allergisen reaktion, ota välittömästi yhteyttä meihin saadaksesi neuvoja.",
+    "specialCircumstances2": "Kynsien poistot: Muiden tekemät kynsityöt tai kotona tehdyt poisto- tai korjausyritykset eivät kuulu takuuseen. Suosittelemme, että varaat ajan ammattilaiselle kynsien turvalliseen poistoon.",
+    "refundTitle": "SALONGIN HYVITYSKÄYTÄNTÖ",
+    "refundIntro": "Käteispalautuksia ei myönnetä sen jälkeen, kun olet poistunut salongistamme.<br></br>Poistuminen salongin ovesta katsotaan merkiksi siitä, että olet hyväksynyt palvelun lopputuloksen ja olet tyytyväinen siihen.",
+    "refund1Title": "ILMOITA TYYTYMÄTTÖMYYDESTÄSI ENNEN MAKSAMISTA.",
+    "refund1": "Jos et ole tyytyväinen kynsiisi, kerro siitä henkilökunnalle ennen maksua. Teemme tarvittavat korjaukset, jotta olet tyytyväinen, tai poistamme kaikki tehdyt parannukset tai pinnoitteet.",
+    "refund2Title": "HYVITYKSIÄ EI MYÖNNETÄ MIELENMUUTOSTEN TAKIA.",
+    "refund2": "Kun olet maksanut palvelun ja hyväksynyt lopputuloksen, emme voi myöntää hyvityksiä pelkästään mielenmuutosten vuoksi.",
+    "refund3Title": "KORJAAMME PALVELUVIRHEET ILMAISEKSI.",
+    "refund3": "Jos et ole tyytyväinen työn laatuun, ilmoita siitä heti palvelun päätyttyä. Tarjoamme maksuttoman korjauksen. Ilmainen korjauspalvelu on saatavilla vain, jos ilmoitat ongelmasta heti palvelun päätyttyä.",
+    "refund4Title": "HYVITYKSET HYVÄKSYTÄÄN VAIN POIKKEUSTILANTEISSA.",
+    "refund4": "Jos hyvitys hyväksytään, se suoritetaan pankkisiirtona 30 päivän kuluessa. Hyvityksen maksaminen edellyttää pankkitietojen toimittamista."
   }
 }

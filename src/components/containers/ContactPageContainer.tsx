@@ -84,7 +84,7 @@ const ContactPageContainer = () => {
             className="self-center"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.5960308837318!2d24.944708777333098!3d60.170866243377624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bcddee7eec1%3A0xce6568aeb6baf27f!2sVuorikatu%208a%2030%2C%2000100%20Helsinki!5e0!3m2!1svi!2sfi!4v1729599239574!5m2!1svi!2sfi"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.5937594870645!2d24.94473611309218!3d60.17090384327021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bcdda102ddf%3A0x5af05f16a1fb4447!2sVuorikatu%208%2C%2000100%20Helsinki!5e0!3m2!1sen!2sfi!4v1737661386908!5m2!1sen!2sfi"
               className="w-[360px] h-[360px] xl:w-[420px] xl:h-[450px]"
               loading="lazy"
             ></iframe>
