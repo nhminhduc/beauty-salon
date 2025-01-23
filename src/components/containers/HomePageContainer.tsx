@@ -57,9 +57,9 @@ const HomePageContainer = () => {
               </motion.div>
             )}
 
-            <div className="flex flex-row items-center gap-6 max-w-max mx-auto xl:mx-0">
+            <div className="flex flex-row xl:flex-col items-center gap-2 max-w-max mx-auto xl:mx-0">
               <Link
-                className="btn btn-lg"
+                className="btn"
                 href={`/${locale}`}
                 onClick={(e) => {
                   e.preventDefault();
@@ -79,10 +79,10 @@ const HomePageContainer = () => {
               >
                 {t("button")}
               </Link>
-              <Link className="btn btn-lg" href={`/${locale}/price`}>
+              <Link className="btn" href={`/${locale}/price`}>
                 {t("price")}
               </Link>
-              <Link className="btn btn-lg" href={`/${locale}/directions`}>
+              <Link className="btn" href={`/${locale}/directions`}>
                 {t("directions")}
               </Link>
             </div>
