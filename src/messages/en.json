@@ -196,6 +196,10 @@
       {
         "name": "Directions",
         "href": "/directions"
+      },
+      {
+        "name": "Reservation",
+        "href": "/#reservation"
       }
     ]
   },

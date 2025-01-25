@@ -196,6 +196,10 @@
       {
         "name": "Reittiohjeet",
         "href": "/directions"
+      },
+      {
+        "name": "Varaa aikaa",
+        "href": "/#reservation"
       }
     ]
   },

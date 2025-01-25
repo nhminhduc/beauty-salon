@@ -57,7 +57,7 @@ const HomePageContainer = () => {
               </motion.div>
             )}
 
-            <div className="flex flex-row xl:flex-col items-center gap-2 max-w-max mx-auto xl:mx-0">
+            <div className="flex flex-col items-center gap-2 max-w-max mx-auto xl:mx-0">
               <Link
                 className="btn"
                 href={`/${locale}`}
@@ -94,7 +94,8 @@ const HomePageContainer = () => {
               y: 0,
               transition: { duration: 1, ease: "easeInOut" },
             }}
-            className="w-full"
+            className="w-full scroll-mt-48 xl:scroll-mt-52"
+            id="reservation"
           >
             <iframe
               width="100%"

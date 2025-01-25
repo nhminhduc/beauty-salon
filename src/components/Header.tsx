@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -17,6 +17,7 @@ const Header = () => {
   const t = useTranslations("header");
   const locale = useLocale();
   const pathname = usePathname();
+  const mobileNavRef = useRef<HTMLDivElement>(null);
 
   const switchLanguage = () => {
     const newLocale = locale === "en" ? "fi" : "en";
@@ -25,6 +26,22 @@ const Header = () => {
     const newPathname = `/${newLocale}${pathname.replace(`/${locale}`, "")}`;
     window.location.href = newPathname;
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        mobileNavRef.current &&
+        !mobileNavRef.current.contains(event.target as Node)
+      ) {
+        setMobileNav(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <header className="pb-6 xl:pb-[24px] fixed z-40 w-full bg-white">
@@ -72,6 +89,7 @@ const Header = () => {
           <AiOutlineMenu className="text-3xl text-primary" />
         </div>
         <motion.div
+          ref={mobileNavRef}
           initial={{ right: "-100%" }}
           animate={{ right: mobileNav ? 0 : "-100%" }}
           className="fixed bg-primary top-0 bottom-0 right-0 w-[300px] xl:hidden z-50"
